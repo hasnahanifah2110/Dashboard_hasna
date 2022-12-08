@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar1"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#A55" />
+
+    //custom1
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom1" />
+
+    //iconuser
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/iconuser"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerCrop"/>
+    //iconsearch
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iconsearch" />
+    //custom2
+
+    //iconbawahmobile
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/custom2">
+
+        //custom3
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/logod" />
+        //logo
+
+        <ImageView
+            android:id="@+id/topup"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/box"
+            android:src="@drawable/iconshoppingcart" />
+        //harga
+
+        <ImageView
+            android:id="@+id/bayar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="23dp"
+            android:layout_toRightOf="@id/topup"
+            android:src="@drawable/iconbayar" />
+        //iconshoppingcart1
+
+        //iconbayar2
+
+        <ImageView
+            android:id="@+id/txtisi"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/bayar"
+            android:src="@drawable/icondelivery" />
+
+        //iconLievery3
+
+        <RelativeLayout
+            android:id="@+id/box"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/custom3" />
+
+        //huruf icon keranjang1
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:layout_toLeftOf="@id/topup"
+            android:text="Rp.199.999"
+            android:textColor="#A56"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/txtisi"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@+id/box"
+            android:text="Isi Saldo"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        //huruf icon bayar2
+
+        <TextView
+            android:id="@+id/txtbayar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@+id/txtisi"
+            android:text="Bayar"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        //huruf icon delivery3
+
+        <TextView
+            android:id="@+id/txteksplor"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@+id/txtbayar"
+            android:text="Eksplor"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    //iconbawahshoplocation
+
+    <ImageView
+        android:id="@+id/mobile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/custom4"
+        android:src="@drawable/iconmobile" />
+
+    <ImageView
+        android:id="@+id/shoplocation"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="270dp"
+        android:layout_toRightOf="@id/mobile"
+        android:background="@drawable/custom4"
+        android:src="@drawable/shoplocation" />
+
+    //iconbawahmobiledompet
+
+    <ImageView
+        android:id="@+id/mobiledompet"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="270dp"
+        android:layout_toRightOf="@+id/shoplocation"
+        android:background="@drawable/custom4"
+        android:src="@drawable/mobiledompet" />
+
+    //iconbawahhammpers
+
+    <ImageView
+        android:id="@+id/hamper"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/custom4"
+        android:src="@drawable/hamper" />
+
+    //iconbawahkado
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/kado"
+        android:background="@drawable/custom4"
+        android:layout_toRightOf="@+id/hamper"
+        android:id="@+id/kado"/>
+
+    //iconbawahbag
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/bag"
+        android:background="@drawable/custom4"
+        android:layout_toRightOf="@+id/kado"
+        android:id="@+id/bag"/>
+
+    //textmobile
+
+    <TextView
+        android:id="@+id/txtmobile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/mobile"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Barang"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    //Textshoplocation
+
+    <TextView
+        android:id="@+id/txtlocation"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/shoplocation"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/mobile"
+        android:text="Lokasi"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    //textmobiledompet
+
+    <TextView
+        android:id="@+id/txtmobiledompet"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/mobiledompet"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/shoplocation"
+        android:text="Pulsa"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    //texthamper
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:text="Hamper"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="33dp"
+        android:layout_below="@id/hamper"
+        android:textSize="18sp"
+        android:id="@+id/txthamper"/>
+
+    //textkado
+
+    <TextView
+        android:id="@+id/txtkado"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="472dp"
+        android:layout_toRightOf="@id/hamper"
+        android:text="Kado"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    //texttas
+
+    <TextView
+        android:id="@+id/txttas"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="472dp"
+        android:layout_toRightOf="@id/hamper"
+        android:text="Tas   "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
